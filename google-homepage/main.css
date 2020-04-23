@@ -1,0 +1,104 @@
+
+.top_navbar_items{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 15px;
+
+}
+
+.top_navbar_items a{
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.google_logo{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 150px;
+	width: 585px;
+	padding: 10px;
+}
+
+#search_icon{
+	background-image: url(https://image.flaticon.com/icons/svg/751/751463.svg);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 30px;
+	margin-top: 10px;
+	margin-bottom: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.search_box{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.search_btns{
+	display: flex;
+	justify-content: center;
+}
+p{
+	text-align: center;
+}
+
+
+footer{
+position:absolute;
+bottom:0;
+display:flex;
+width:100%;
+margin:auto;
+background-color:rgba(240,240,240);
+}
+
+
+li{
+	display: inline-block;
+	margin:5px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+.fbar_right{
+	position: absolute;
+	right: 30px;
+}
+
+
+
+.search_box{
+	margin:0 auto;
+	width:575px;
+	border-radius:30px;
+	border:1.5px solid #dcdcdc;
+}
+
+
+
+.search_bar{
+	height:45px;
+	border:none;
+	width:500px;
+	font-size:16px;
+	outline: none;
+}
+
+.search_box:hover{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+
+.search_btns{
+	padding: 20px;
+}
